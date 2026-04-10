@@ -1,0 +1,296 @@
+[09/Apr/2026:21:42:43 +00:00: profiler/info] Detected Qualcomm SOC=QCS9100. SOC Model=77, Hexagon arch=73, supports QNN=true, unsigned PDs=true, fp16=true, QNN flavor=default.
+[09/Apr/2026:21:42:43 +00:00: profiler/info] -=- Tungsten running task: compiling -=-
+[09/Apr/2026:21:42:43 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Status Successfully Compiled with t = 0 us and usage: before = 0.0 kB; peakBefore = 0.0 kB; mallocUnusedBefore = 0.0 kB; after = 0.0 kB; peakAfter = 0.0 kB; mallocUnusedAfter = 0.0 kB; increase = 0.0-0.0 kB; peak = 0.0-0.0 kB
+[09/Apr/2026:21:42:43 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Saving results to /data/local/tmp/QDC_logs/tungsten/TungstenArtifacts/Results/job_jp34w3rzg/job_jp34w3rzg_results.bin
+[09/Apr/2026:21:42:43 +00:00: profiler/info] Detected Qualcomm SOC=QCS9100. SOC Model=77, Hexagon arch=73, supports QNN=true, unsigned PDs=true, fp16=true, QNN flavor=default.
+[09/Apr/2026:21:42:43 +00:00: profiler/info] -=- Tungsten running task: loading -=-
+[09/Apr/2026:21:42:43 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loading previously saved results in /data/local/tmp/QDC_logs/tungsten/TungstenArtifacts/Results/job_jp34w3rzg/job_jp34w3rzg_results.bin
+[09/Apr/2026:21:42:43 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loading QNN model Models/model.bin.
+[09/Apr/2026:21:42:43 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Malloc VM size before: 1468.0 kB, allocated: 670.8 kB, slack: 797.2 kB.
+[09/Apr/2026:21:42:43 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Current memory baseline range: 1978.8-2776.0 kB.
+[09/Apr/2026:21:42:43 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Found QNN interface provider with API version 2.32.
+[09/Apr/2026:21:42:43 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin]  <W> Initializing HtpProvider
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loaded QNN backend from /data/local/tmp/TestContent/lib/qnn_sdk/default/2.43.0/aarch64-oe-linux-gcc11.2/libQnnHtp.so (version 5.43.0; core API 2.32.0; build ID v2.43.0.260127150333_193827)
+[09/Apr/2026:21:42:44 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Found asset Models/model.bin in /data/local/tmp/TestContent/Models/model.bin.
+[09/Apr/2026:21:42:44 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Found asset Models/model.bin in /data/local/tmp/TestContent/Models/model.bin.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loaded /data/local/tmp/TestContent/lib/qnn_sdk/default/2.43.0/aarch64-oe-linux-gcc11.2/libQnnSystem.so, with version 1.7.0.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Using QNN context binary with build ID=v2.43.0.260127150333_193827.
+[09/Apr/2026:21:42:44 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Creating context from binary with 0 configurations set.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin]  <W> m_CFBCallbackInfoObj is not initialized, return emptyList
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loaded graph graph_rj_uso6i.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Malloc VM size after: 2788.0 kB, allocated: 1178.0 kB, slack: 1610.0 kB.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Status Successfully Loaded Cold with t = 233363 us and usage: before = 2776.0 kB; peakBefore = 2776.0 kB; mallocUnusedBefore = 797.2 kB; after = 4048.0 kB; peakAfter = 4040.0 kB; mallocUnusedAfter = 1610.0 kB; increase = 0.0-459.2 kB; peak = 1264.0-2061.2 kB
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Saving results to /data/local/tmp/QDC_logs/tungsten/TungstenArtifacts/Results/job_jp34w3rzg/job_jp34w3rzg_results.bin
+[09/Apr/2026:21:42:44 +00:00: profiler/info]  <W> m_CFBCallbackInfoObj is not initialized, return emptyList
+[09/Apr/2026:21:42:44 +00:00: profiler/info] Detected Qualcomm SOC=QCS9100. SOC Model=77, Hexagon arch=73, supports QNN=true, unsigned PDs=true, fp16=true, QNN flavor=default.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] -=- Tungsten running task: loading -=-
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loading previously saved results in /data/local/tmp/QDC_logs/tungsten/TungstenArtifacts/Results/job_jp34w3rzg/job_jp34w3rzg_results.bin
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loading QNN model Models/model.bin.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Malloc VM size before: 1468.0 kB, allocated: 671.5 kB, slack: 796.5 kB.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Current memory baseline range: 1983.5-2780.0 kB.
+[09/Apr/2026:21:42:44 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Found QNN interface provider with API version 2.32.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin]  <W> Initializing HtpProvider
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loaded QNN backend from /data/local/tmp/TestContent/lib/qnn_sdk/default/2.43.0/aarch64-oe-linux-gcc11.2/libQnnHtp.so (version 5.43.0; core API 2.32.0; build ID v2.43.0.260127150333_193827)
+[09/Apr/2026:21:42:44 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Found asset Models/model.bin in /data/local/tmp/TestContent/Models/model.bin.
+[09/Apr/2026:21:42:44 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Found asset Models/model.bin in /data/local/tmp/TestContent/Models/model.bin.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loaded /data/local/tmp/TestContent/lib/qnn_sdk/default/2.43.0/aarch64-oe-linux-gcc11.2/libQnnSystem.so, with version 1.7.0.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Using QNN context binary with build ID=v2.43.0.260127150333_193827.
+[09/Apr/2026:21:42:44 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Creating context from binary with 0 configurations set.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin]  <W> m_CFBCallbackInfoObj is not initialized, return emptyList
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loaded graph graph_rj_uso6i.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Malloc VM size after: 2788.0 kB, allocated: 1175.0 kB, slack: 1613.0 kB.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Status Successfully Loaded Warm with t = 184009 us and usage: before = 2780.0 kB; peakBefore = 2780.0 kB; mallocUnusedBefore = 796.5 kB; after = 6052.0 kB; peakAfter = 6048.0 kB; mallocUnusedAfter = 1613.0 kB; increase = 1659.0-2455.5 kB; peak = 3268.0-4064.5 kB
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Saving results to /data/local/tmp/QDC_logs/tungsten/TungstenArtifacts/Results/job_jp34w3rzg/job_jp34w3rzg_results.bin
+[09/Apr/2026:21:42:44 +00:00: profiler/info]  <W> m_CFBCallbackInfoObj is not initialized, return emptyList
+[09/Apr/2026:21:42:44 +00:00: profiler/info] Detected Qualcomm SOC=QCS9100. SOC Model=77, Hexagon arch=73, supports QNN=true, unsigned PDs=true, fp16=true, QNN flavor=default.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] -=- Tungsten running task: performing inference -=-
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loading previously saved results in /data/local/tmp/QDC_logs/tungsten/TungstenArtifacts/Results/job_jp34w3rzg/job_jp34w3rzg_results.bin
+[09/Apr/2026:21:42:44 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Starting profiler
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loading QNN model Models/model.bin.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Malloc VM size before: 1468.0 kB, allocated: 671.7 kB, slack: 796.3 kB.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Current memory baseline range: 1983.7-2780.0 kB.
+[09/Apr/2026:21:42:44 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Found QNN interface provider with API version 2.32.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin]  <W> Initializing HtpProvider
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loaded QNN backend from /data/local/tmp/TestContent/lib/qnn_sdk/default/2.43.0/aarch64-oe-linux-gcc11.2/libQnnHtp.so (version 5.43.0; core API 2.32.0; build ID v2.43.0.260127150333_193827)
+[09/Apr/2026:21:42:44 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Found asset Models/model.bin in /data/local/tmp/TestContent/Models/model.bin.
+[09/Apr/2026:21:42:44 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Found asset Models/model.bin in /data/local/tmp/TestContent/Models/model.bin.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loaded /data/local/tmp/TestContent/lib/qnn_sdk/default/2.43.0/aarch64-oe-linux-gcc11.2/libQnnSystem.so, with version 1.7.0.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Using QNN context binary with build ID=v2.43.0.260127150333_193827.
+[09/Apr/2026:21:42:44 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Creating context from binary with 0 configurations set.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin]  <W> m_CFBCallbackInfoObj is not initialized, return emptyList
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loaded graph graph_rj_uso6i.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Malloc VM size after: 2788.0 kB, allocated: 1177.5 kB, slack: 1610.5 kB.
+[09/Apr/2026:21:42:44 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Status Successfully Loaded Warm with t = 204712 us and usage: before = 2780.0 kB; peakBefore = 2780.0 kB; mallocUnusedBefore = 796.3 kB; after = 4048.0 kB; peakAfter = 4040.0 kB; mallocUnusedAfter = 1610.5 kB; increase = 0.0-453.9 kB; peak = 1260.0-2056.3 kB
+[09/Apr/2026:21:42:45 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Applying performance mode Burst to device 0, core 0.
+[09/Apr/2026:21:42:45 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Not applying performance mode Burst to device 1, core 0.
+[09/Apr/2026:21:42:45 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Malloc VM size before: 5144.0 kB, allocated: 1176.0 kB, slack: 3968.0 kB.
+[09/Apr/2026:21:42:45 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Current memory baseline range: 2448.0-6416.0 kB.
+[09/Apr/2026:21:42:45 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Malloc VM size after: 5144.0 kB, allocated: 1193.6 kB, slack: 3950.4 kB.
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Successfully ran model for 100 iterations across 1 batches in 2.927 sec.
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Status Successfully Performed Inference with t = 27958 us and usage: before = 6416.0 kB; peakBefore = 6416.0 kB; mallocUnusedBefore = 3968.0 kB; after = 6456.0 kB; peakAfter = 8812.0 kB; mallocUnusedAfter = 3950.4 kB; increase = 0.0-57.6 kB; peak = 2396.0-6364.0 kB
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Saving results to /data/local/tmp/QDC_logs/tungsten/TungstenArtifacts/Results/job_jp34w3rzg/job_jp34w3rzg_results.bin
+[09/Apr/2026:21:42:48 +00:00: profiler/info]  <W> m_CFBCallbackInfoObj is not initialized, return emptyList
+[09/Apr/2026:21:42:48 +00:00: profiler/info] Detected Qualcomm SOC=QCS9100. SOC Model=77, Hexagon arch=73, supports QNN=true, unsigned PDs=true, fp16=true, QNN flavor=default.
+[09/Apr/2026:21:42:48 +00:00: profiler/info] -=- Tungsten running task: performing inference by layer -=-
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loading previously saved results in /data/local/tmp/QDC_logs/tungsten/TungstenArtifacts/Results/job_jp34w3rzg/job_jp34w3rzg_results.bin
+[09/Apr/2026:21:42:48 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Starting profiler
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loading QNN model Models/model.bin.
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Malloc VM size before: 1480.0 kB, allocated: 675.3 kB, slack: 804.7 kB.
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Current memory baseline range: 1975.3-2780.0 kB.
+[09/Apr/2026:21:42:48 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Found QNN interface provider with API version 2.32.
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin]  <W> Initializing HtpProvider
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loaded QNN backend from /data/local/tmp/TestContent/lib/qnn_sdk/default/2.43.0/aarch64-oe-linux-gcc11.2/libQnnHtp.so (version 5.43.0; core API 2.32.0; build ID v2.43.0.260127150333_193827)
+[09/Apr/2026:21:42:48 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Found asset Models/model.bin in /data/local/tmp/TestContent/Models/model.bin.
+[09/Apr/2026:21:42:48 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Found asset Models/model.bin in /data/local/tmp/TestContent/Models/model.bin.
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loaded /data/local/tmp/TestContent/lib/qnn_sdk/default/2.43.0/aarch64-oe-linux-gcc11.2/libQnnSystem.so, with version 1.7.0.
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Using QNN context binary with build ID=v2.43.0.260127150333_193827.
+[09/Apr/2026:21:42:48 +00:00: profiler/debug] [job_id: jp34w3rzg] [model.bin] Creating context from binary with 0 configurations set.
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin]  <W> m_CFBCallbackInfoObj is not initialized, return emptyList
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Loaded graph graph_rj_uso6i.
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Malloc VM size after: 2792.0 kB, allocated: 1180.3 kB, slack: 1611.7 kB.
+[09/Apr/2026:21:42:48 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Status Successfully Loaded Warm with t = 199788 us and usage: before = 2780.0 kB; peakBefore = 2780.0 kB; mallocUnusedBefore = 804.7 kB; after = 6060.0 kB; peakAfter = 6056.0 kB; mallocUnusedAfter = 1611.7 kB; increase = 1668.3-2473.0 kB; peak = 3276.0-4080.7 kB
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Applying performance mode Burst to device 0, core 0.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Not applying performance mode Burst to device 1, core 0.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Malloc VM size before: 5148.0 kB, allocated: 1181.4 kB, slack: 3966.6 kB.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Current memory baseline range: 4461.4-8428.0 kB.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 11 profiler events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 86 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 11 profiler events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 86 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Got 0 profiler sub-events.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Malloc VM size after: 6260.0 kB, allocated: 1576.0 kB, slack: 4684.0 kB.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Successfully ran model for 2 iterations across 1 batches in 0.112 sec.
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Status Successfully Performed Inference By Layer with t = 45318 us and usage: before = 8428.0 kB; peakBefore = 8428.0 kB; mallocUnusedBefore = 3966.6 kB; after = 9544.0 kB; peakAfter = 10852.0 kB; mallocUnusedAfter = 4684.0 kB; increase = 0.0-398.6 kB; peak = 2424.0-6390.6 kB
+[09/Apr/2026:21:42:49 +00:00: profiler/info] [job_id: jp34w3rzg] [model.bin] Saving results to /data/local/tmp/QDC_logs/tungsten/TungstenArtifacts/Results/job_jp34w3rzg/job_jp34w3rzg_results.bin
+[09/Apr/2026:21:42:49 +00:00: profiler/info]  <W> m_CFBCallbackInfoObj is not initialized, return emptyList
