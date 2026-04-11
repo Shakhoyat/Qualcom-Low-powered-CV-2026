@@ -1,0 +1,71 @@
+{
+  "experiments": [
+    {
+      "id": "run_001",
+      "name": "baseline_zero_shot",
+      "description": "Zero-shot Qwen2-VL-2B-Instruct, no fine-tuning",
+      "model": "Qwen/Qwen2-VL-2B-Instruct",
+      "lora_rank": null,
+      "dataset": null,
+      "n_train_samples": 0,
+      "detection_accuracy": null,
+      "json_validity_rate": null,
+      "aihub_compile_job_id": null,
+      "aihub_inference_job_id": null,
+      "status": "pending",
+      "notes": "Run this first to establish baseline before any fine-tuning"
+    },
+    {
+      "id": "run_002",
+      "name": "lora_r64_cifake_only",
+      "description": "LoRA r=64 fine-tuned on CIFAKE only (120k images)",
+      "model": "Qwen/Qwen2-VL-2B-Instruct",
+      "lora_rank": 64,
+      "dataset": "CIFAKE",
+      "n_train_samples": 108000,
+      "detection_accuracy": null,
+      "json_validity_rate": null,
+      "aihub_compile_job_id": null,
+      "aihub_inference_job_id": null,
+      "status": "pending",
+      "notes": ""
+    },
+    {
+      "id": "run_003",
+      "name": "lora_r64_all_datasets",
+      "description": "LoRA r=64 fine-tuned on CIFAKE + ArtiFact + custom SDXL",
+      "model": "Qwen/Qwen2-VL-2B-Instruct",
+      "lora_rank": 64,
+      "dataset": "CIFAKE+ArtiFact+SDXL",
+      "n_train_samples": null,
+      "detection_accuracy": null,
+      "json_validity_rate": null,
+      "aihub_compile_job_id": null,
+      "aihub_inference_job_id": null,
+      "status": "pending",
+      "notes": "Pipeline 1 target run — expected to be best in P1 series"
+    },
+    {
+      "id": "run_p2_001",
+      "name": "p2_dora_cascade_2500",
+      "description": "Pipeline 2: ConvNeXt-Tiny + Qwen2-VL-2B DoRA, 2500 Zoom-In samples, curriculum, B-Free augmentation",
+      "model": "Qwen/Qwen2-VL-2B-Instruct",
+      "architecture": "cascade: ConvNeXt-Tiny + VLM",
+      "adapter": "DoRA (use_dora=True)",
+      "lora_rank": 64,
+      "dataset": "FakeClue/custom_2500_zoom_in",
+      "n_train_samples": 2250,
+      "criteria_order": "global_to_local",
+      "inference": "single_pass_prefill_guided",
+      "augmentation": "bfree_jpeg75_gaussian",
+      "quantization_target": "W8A8_QAT_AIMET",
+      "detection_accuracy": null,
+      "json_validity_rate": null,
+      "cnn_accuracy": null,
+      "aihub_compile_job_id": null,
+      "aihub_inference_job_id": null,
+      "status": "pending",
+      "notes": "Pipeline 2 — fundamentally different from P1. Expected 94-96% cross-generator generalization."
+    }
+  ]
+}
